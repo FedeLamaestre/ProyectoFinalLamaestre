@@ -42,8 +42,7 @@ nav .activo {
   background-color: #f9e2c2;
 }
 .mov h3 {
-  font-size: 1.1rem;
-  text-align: center;
+  font-size: 1.5rem;
   line-height: 5rem;
 }
 
@@ -194,6 +193,35 @@ textarea {
   border: none;
   border-radius: 0.5rem;
   font-size: 1.2rem;
+}
+
+@media screen and (min-width: 48rem) {
+  .navbar h1 {
+    font-size: 2.5rem;
+  }
+  .projects .projects-1, .projects .projects-2 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .projects h2 {
+    font-size: 3rem;
+  }
+  .card .saber-modif, .card .pepsico-modif {
+    padding-bottom: 0rem;
+  }
+  .saber-hacer {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .text-modif h3 {
+    padding-top: 2rem;
+  }
+  .text-modif p {
+    padding: 0.5rem 1rem 1rem 1rem;
+  }
+  .img-left {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
