@@ -225,7 +225,31 @@ textarea{
             font-size: 3rem;
         }
     }
-    
+    .projects-1{
+        img{
+            animation: fromLeft 2s linear;
+            overflow: hidden;
+        }
+    }
+
+    @keyframes fromLeft {
+        0%{
+            transform: translateX(-700%);
+        }
+    }
+
+    .projects-2{
+        img{
+            animation: fromRight 2s linear;
+            overflow: hidden;
+        }
+    }
+
+    @keyframes fromRight {
+        0%{
+            transform: translateX(700%);
+        }
+    }
 
     .card{
         .saber-modif, .pepsico-modif{
@@ -248,6 +272,30 @@ textarea{
         }
     }
 
+    footer{
+        .social-medias{
+            i:hover{
+                color: $colorHover;
+                transition: .5s;
+            }
+        }
+    }
+
+    // text-black efec
+    .text-black{
+        h2{
+            animation: textBlack .5s linear;
+            overflow: hidden;
+        }
+    }
+
+    @keyframes textBlack {
+        0%{
+            transform: translateY(-100%);
+            opacity: 0%;
+        }
+    }
+
     // what i do
     .text-modif{
         h3{
@@ -260,6 +308,15 @@ textarea{
     .img-left{
         display: flex;
         flex-direction: row-reverse;
+    }
+
+    // my work
+    .my-work{
+        img:hover{
+            transform: scale(1.03);
+            transition: .5s;
+            filter: grayscale(80%);
+        }
     }
 }
 
@@ -416,6 +473,7 @@ textarea{
         p{
             font-size: 1.1rem;
         }
+
     }
 
 @media screen and (min-width: 77.5rem) {
