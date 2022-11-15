@@ -212,6 +212,12 @@ textarea {
     display: flex;
     flex-direction: row-reverse;
   }
+  footer h5, footer h4, footer h3 {
+    font-size: 2rem;
+  }
+  footer .social-medias i {
+    font-size: 1.4rem;
+  }
   .text-modif h3 {
     padding-top: 2rem;
   }
@@ -221,6 +227,162 @@ textarea {
   .img-left {
     display: flex;
     flex-direction: row-reverse;
+  }
+}
+@media screen and (min-width: 56.25rem) {
+  .nav-item a:hover {
+    color: #c8aee6;
+  }
+  .projects .projects-1, .projects .projects-2 {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .card .pepsico-modif h4, .card .saber-hacer h4 {
+    padding-top: 4rem;
+  }
+  .card .pepsico-modif a:hover, .card .saber-hacer a:hover {
+    background-color: #c8aee6;
+    transition: all 0.5s;
+  }
+  .text-black h2 {
+    font-size: 2.5rem;
+  }
+  .my-description {
+    display: grid;
+    grid-template-areas: "belu-photo description" "belu-gif description";
+  }
+  .my-description .belu-photo {
+    grid-area: belu-photo;
+  }
+  .my-description .belu-photo img {
+    height: 25rem;
+  }
+  .my-description .belu-gif {
+    grid-area: belu-gif;
+    height: 25rem;
+  }
+  .my-description .description {
+    grid-area: description;
+  }
+  .my-description .belu-gif {
+    background-image: url(../images/belu.gif);
+    background-position: center;
+    background-size: cover;
+  }
+  .text-modif h3 {
+    padding-top: 3rem;
+  }
+  .my-work {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .btn-submit:hover {
+    background-color: #c8aee6;
+    transition: all 0.5s;
+  }
+}
+@media screen and (min-width: 62rem) {
+  .text-modif h3 {
+    padding-top: 5rem;
+  }
+}
+@media screen and (min-width: 64rem) {
+  .nav-item a {
+    font-size: 1.2rem;
+  }
+  .projects h2 {
+    font-size: 3.5rem;
+  }
+  .mov marquee h3 {
+    font-size: 2rem;
+  }
+  .card .pepsico-modif h4 {
+    font-size: 2rem;
+  }
+  .card .pepsico-modif p {
+    font-size: 1.5rem;
+  }
+  .card .pepsico-modif a {
+    font-size: 1.5rem;
+  }
+  .card .saber-modif h4 {
+    font-size: 2rem;
+    padding-top: 5rem;
+  }
+  .card .saber-modif p {
+    font-size: 1.5rem;
+  }
+  .card .saber-modif a {
+    font-size: 1.5rem;
+  }
+  .my-description .description h3 {
+    font-size: 1.8rem;
+    padding-top: 2rem;
+  }
+  .my-description .description p {
+    font-size: 1.1rem;
+  }
+}
+.text-modif h3 {
+  font-size: 2rem;
+}
+.text-modif p {
+  font-size: 1.1rem;
+}
+
+@media screen and (min-width: 77.5rem) {
+  .card .pepsico-modif h4 {
+    padding-top: 6rem;
+  }
+  .card .pepsico-modif p {
+    padding-bottom: 2rem;
+  }
+  .card .saber-modif h4 {
+    padding-top: 8rem;
+  }
+  .card .saber-modif p {
+    padding-bottom: 2rem;
+  }
+  footer h5, footer h4, footer h3 {
+    font-size: 2.5rem;
+  }
+  footer .social-medias i {
+    font-size: 1.8rem;
+  }
+  .card .text-modif h3 {
+    padding-top: 7rem;
+    font-size: 2.5rem;
+  }
+  .card .text-modif p {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (min-width: 90rem) {
+  .projects h2 {
+    font-size: 4rem;
+  }
+  .card .pepsico-modif h4 {
+    padding-top: 7.5rem;
+    font-size: 2.8rem;
+  }
+  .card .pepsico-modif p {
+    font-size: 1.7rem;
+  }
+  .card .saber-modif h4 {
+    padding-top: 8.5rem;
+    font-size: 2.8rem;
+  }
+  .card .saber-modif p {
+    font-size: 1.7rem;
+  }
+  .my-description .description h3 {
+    font-size: 2.5rem;
+  }
+  .my-description .description p {
+    font-size: 1.2rem;
+    padding-left: 5.5rem;
+    padding-right: 5.5rem;
+  }
+  .card .text-modif h3 {
+    padding-top: 8rem;
   }
 }
 

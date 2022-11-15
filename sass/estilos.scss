@@ -225,6 +225,8 @@ textarea{
             font-size: 3rem;
         }
     }
+    
+
     .card{
         .saber-modif, .pepsico-modif{
             padding-bottom: 0rem;
@@ -233,6 +235,17 @@ textarea{
     .saber-hacer{
         display: flex;
         flex-direction: row-reverse;
+    }
+
+    footer{
+        h5, h4, h3{
+            font-size: 2rem;
+        }
+        .social-medias{
+            i{
+                font-size: 1.4rem;
+            }
+        }
     }
 
     // what i do
@@ -247,5 +260,264 @@ textarea{
     .img-left{
         display: flex;
         flex-direction: row-reverse;
+    }
+}
+
+@media screen and (min-width: 56.25rem) {
+    // index
+    .nav-item{
+        a:hover{
+            color: $colorHover;
+        }
+    }
+    .projects{
+        .projects-1, .projects-2{
+            grid-template-columns: repeat(6, 1fr);
+        }
+    }
+    .card{
+        .pepsico-modif, .saber-hacer{
+            h4{
+            padding-top: 4rem;
+            }
+            a:hover{
+                background-color: $colorHover;
+                transition: all .5s;
+            }
+        }
+    }
+
+    // about
+    .text-black{
+        h2{
+            font-size: 2.5rem;
+        }
+    }
+    .my-description{
+        display: grid;
+        grid-template-areas: "belu-photo description"
+        "belu-gif description";
+        .belu-photo{
+            grid-area: belu-photo;
+            img{
+                height: 25rem;
+            }
+        }
+        .belu-gif{
+            grid-area: belu-gif;
+            height: 25rem;
+        }
+        .description{
+            grid-area: description;
+        }
+        .belu-gif{
+            background-image: url(../images/belu.gif);
+            background-position:center;
+            background-size: cover;
+        }
+    }
+
+    // what i do
+    .text-modif{
+        h3{
+            padding-top: 3rem;
+        }
+    }
+
+    // my work
+    .my-work{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    // contact
+    .btn-submit:hover{
+        background-color: $colorHover;
+        transition: all .5s;
+    }
+}
+
+@media screen and (min-width: 62rem) {
+    .text-modif{
+        h3{
+            padding-top: 5rem;
+        }
+    }
+}
+
+@media screen and (min-width: 64rem) {
+    // index
+    .nav-item{
+        a{
+            font-size: 1.2rem;
+        }
+    }
+
+    .projects{
+        h2{
+            font-size: 3.5rem;
+        }
+    }
+    .mov{
+        marquee{
+            h3{
+                font-size: 2rem;
+            }
+        }
+    }
+
+    .card{
+        .pepsico-modif{
+            h4{
+                font-size: 2rem;
+            }
+            p{
+                font-size: 1.5rem;
+            }
+            a{
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    .card{
+        .saber-modif{
+            h4{
+                font-size: 2rem;
+                padding-top: 5rem;
+            }
+            p{
+                font-size: 1.5rem;
+            }
+            a{
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    // about
+    .my-description{
+        .description{
+            h3{
+                font-size: 1.8rem;
+                padding-top: 2rem;
+            }
+            p{
+                font-size: 1.1rem;
+            }
+        }
+    }
+}
+
+// what i do
+    .text-modif{
+        h3{
+            font-size: 2rem;
+        }
+        p{
+            font-size: 1.1rem;
+        }
+    }
+
+@media screen and (min-width: 77.5rem) {
+    // index
+    .card{
+        .pepsico-modif{
+            h4{
+                padding-top: 6rem;
+            }
+            p{
+                padding-bottom: 2rem;
+            }
+        }
+    }
+    .card{
+        .saber-modif{
+            h4{
+                padding-top: 8rem;
+            }
+            p{
+                padding-bottom: 2rem;
+            }
+        }
+    }
+
+    footer{
+        h5, h4, h3{
+            font-size: 2.5rem;
+        }
+        .social-medias{
+            i{
+                font-size: 1.8rem;
+            }
+        }
+    }
+
+    // what i do
+    .card{
+        .text-modif{
+            h3{
+                padding-top: 7rem;
+                font-size: 2.5rem;
+            }
+            p{
+                font-size: 1.4rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 90rem) {
+    // Index
+    .projects{
+        h2{
+            font-size: 4rem;
+        }
+    }
+
+    .card{
+        .pepsico-modif{
+            h4{
+                padding-top: 7.5rem;
+                font-size: 2.8rem;
+            }
+            p{
+                font-size: 1.7rem;
+            }
+        }
+    }
+
+    .card{
+        .saber-modif{
+            h4{
+                padding-top: 8.5rem;
+                font-size: 2.8rem;
+            }
+            p{
+                font-size: 1.7rem;
+            }
+        }
+    }
+
+    // about
+    .my-description{
+        .description{
+            h3{
+                font-size: 2.5rem;
+            }
+            p{
+                font-size: 1.2rem;
+                padding-left: 5.5rem;
+                padding-right: 5.5rem;
+            }
+        }
+    }
+
+    // what i do
+    .card{
+        .text-modif{
+            h3{
+                padding-top: 8rem;
+            }
+        }
     }
 }
